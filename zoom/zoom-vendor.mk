@@ -18,5 +18,9 @@ PRODUCT_PACKAGES += \
     libTimeService \
     libtime_genoff
 
+PRODUCT_PACKAGES += \
+    pp_calib_data_boe_1080p_cmd_mode_dsi_panel.xml \
+    pp_calib_data_lgd_1080p_cmd_mode_dsi_panel.xml
+
 $(call inherit-product, vendor/lenovo/zoom/vendor/copyfiles.mk)
 
